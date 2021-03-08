@@ -15,6 +15,7 @@ public class Principal extends PApplet {
 	@Override
 	public void settings() {
 		size(600, 750);
+		//Prueba de Github
 	}
 
 	@Override
