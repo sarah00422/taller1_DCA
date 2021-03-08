@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import processing.core.PApplet;
 
 public class Principal extends PApplet {
@@ -11,6 +12,8 @@ public class Principal extends PApplet {
 	int height;
 	private PlayScreen play;
 	boolean disparo;
+	
+	
 
 	@Override
 	public void settings() {
@@ -25,6 +28,7 @@ public class Principal extends PApplet {
 		height = 50;
 		disparo = true;
 		play = new PlayScreen(height, width, this);
+		
 	}
 
 	@Override
